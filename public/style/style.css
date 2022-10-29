@@ -1,0 +1,137 @@
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.wrapper
+{
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+.header
+{
+	width: 100%;
+	height: auto;
+}
+.menu
+{
+	width: 80%;
+	height: 40px;
+	background-color:burlywood;
+	margin: auto;
+}
+.menu ul
+{
+	width: 100%;
+	height: 30px;
+	list-style-type: none;
+	margin: auto;
+}
+.menu ul li a
+{
+	float: left;
+	line-height: 40px;
+	margin-left: 300px;
+	padding: 0 50px;
+	border-radius: 50px;
+	transition: 0.75s;
+	text-decoration: none;
+}
+.menu ul li a
+{
+	color:black;
+	text-decoration: none;
+}
+.menu a:hover
+{
+	text-decoration: underline;
+	border-radius: 500px;
+	background: green;
+	text-decoration: none;
+}
+.menu a:link
+{
+
+	font-size: 17px;
+}
+.menu li:hover
+{
+	background: green;
+	text-decoration: none;
+
+}
+.content
+{
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+}
+.left
+{
+	width: 200px;
+	min-height: 700px;
+	float: left;
+	margin-left: 40px;
+}
+
+.right
+{
+	width: 1200px;
+	min-height: 700px;
+	float: right;
+	margin-right: 20px;
+}
+
+.search-container {
+	float: right;
+  }
+  
+  .input[type=text] {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+  }
+  
+  .search-container button {
+	float: right;
+	padding: 6px 10px;
+	margin-right: 16px;
+	font-size: 12px;
+	border: none;
+  }
+  
+  .search-container button:hover {
+	background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+	.search-container {
+	  float: none;
+	}
+	.input[type=text], .search-container button {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	  width: 100%;
+	  margin: 0;
+	  padding: 14px;
+	}
+	.input[type=text] {
+	  border: 1px solid #ccc;  
+	}
+  }
+
+.clear
+{
+	clear: both;
+}
+.footer
+{
+	width: 100%;
+	height: 30px;
+	background-color: #F2EAEA;
+}
+

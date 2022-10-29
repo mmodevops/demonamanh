@@ -1,0 +1,29 @@
+{
+  "name": "demonamanh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consolidate": "^0.15.1",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "mongodb": "^3.6.0",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namanhvtc/demonamanh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namanhvtc/demonamanh/issues"
+  },
+  "homepage": "https://github.com/namanhvtc/demonamanh#readme"
+}
